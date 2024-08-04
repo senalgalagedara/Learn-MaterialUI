@@ -1,9 +1,11 @@
 import React  from 'react';
-import MuiTypography from './components/MuiTypography';
+import MuiButton from './components/MuiButton';
+//import MuiTypography from './components/MuiTypography';
 function App() {
   return (
     <div className="App">
-      <MuiTypography />
+      {/*<MuiTypography /> */}
+      <MuiButton />
     </div>
   );
 }
